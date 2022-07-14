@@ -20,10 +20,33 @@
      <div class="btns">
 
       <button onclick="window.location.href='https://instagram.com/s_m_y_a_n?igshid=YmMyMTA2M2Y=';"><span></span>Follow Us</button>
-      <button onClick="window.location.href='https://fusion2k22.github.io/registration/';"><span></span>Register</button>
+      <button onClick="myFunction()"><span></span>Register</button>
       <div class="space"></div>
       <script src="https://cdn.logwork.com/widget/countdown.js"></script>
 <a href="https://logwork.com/countdown-7tbg" style="pointer-events: none" class="countdown-timer" data-width="400" data-timezone="Asia/Kolkata" data-textcolor="#faf7f7" data-date="2022-07-15 00:00" data-digitscolor="#fcf7f7" data-unitscolor="#f2e9e9">Fusion Countdown </a>
+       <script>
+function myFunction(){
+	
+	const link = document.querySelector('#link');	
+
+	const d = new Date();
+
+	let day = d.getDate();
+
+	let hour = d.getHours();
+	//April 16 at ten o clock for example
+
+	if(day >= 14){
+
+		if(day >=14 && hour >= 24){
+			location.replace("https://fusion2k22.github.io/thankyou/")
+		}
+else
+location.replace("https://fusion2k22.github.io/.com/")
+	}
+  }
+
+</script>
        <style>
    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
     html{
